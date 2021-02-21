@@ -6,6 +6,7 @@ The following will be explained with rank size = 3 and N size = 12.
 This means that each rank works 4 times iteratelly.
 
 - each x coordinate
+
 | rank | 1st | 2nd | 3rd | 4th |
 | --- | --- | --- | --- | --- |
 | rank0 | 0/12 | 3/12 | 6/12 | 9/12 | 
