@@ -4,6 +4,7 @@ MPI Root: Distribute N value for each rank.
 
 The following will be explained with rank size = 3 and N size = 12.
 This means that each rank works 4 times iteratelly.
+The trapezoid's high is 1/N (= 1/12).
 
 - each x coordinate to start caluculation
 
@@ -13,7 +14,7 @@ This means that each rank works 4 times iteratelly.
 | rank1 | 1/12 | 4/12 | 7/12 | 10/12 | 
 | rank2 | 2/12 | 5/12 | 8/12 | 11/12 | 
 
-The trapezoid's high is 1/N (= 1/12).
+
 ```
 - trapezoid of rank0's 1st iteration is: 
  f((0/12 + 1/12)/2) * (1/12) = f((0+0.5)*(1/12)) * (1/12)
