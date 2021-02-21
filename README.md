@@ -21,7 +21,7 @@ The trapezoid's high is 1/N (= 1/12).
 - trapezoid of rank0's 2nd iteration is: 
  f((3/12 + 4/12)/2) * (1/12) = f((3+0.5)*(1/12)) * (1/12)
  ...
-- trapezoid of rank2's 3rd iteration is: 
+- trapezoid of rank2's 4th iteration is: 
  f((11/12 + 12/12)/2) * (1/12) = f((11+0.5)*(1/12)) * (1/12)
 ```
 
