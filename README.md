@@ -1,3 +1,13 @@
+Argorithm:
+
+MPI Root: Distribute N value for each rank.
+
+The following will be explained with rank size = 3 and N size = 12.
+
+rank | start | end | skip
+rank0 |
+
+
 ```
 $ cat machines_openmpi.txt 
 pi00 slots=1
