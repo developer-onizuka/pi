@@ -1,6 +1,7 @@
 # Argorithm:
 
 MPI Root: Distribute N value for each rank.
+
 The following will be explained with rank size = 3 and N size = 12.
 This means that each rank works 4 times iteratelly.
 
@@ -9,6 +10,18 @@ This means that each rank works 4 times iteratelly.
 | rank0 | 0 | 3 | 6 | 9 | 
 | rank1 | 1 | 4 | 7 | 10 | 
 | rank2 | 2 | 5 | 8 | 11 | 
+
+The trapezoid's high is 1/N, which is 1/12.
+
+- trapezoid of rank0's 1st iteration is: 
+ f((0 + 1)/2) * (1/12) = f(0 + 0.5) * (1/12)
+- trapezoid of rank0's 2nd iteration is: 
+ f((3 + 4)/2) * (1/12) = f(3 + 0.5) * (1/12)
+ ...
+
+- trapezoid of rank0's task :  f((i + i+1)/2) * (1/12) = f(i + 0.5) * (1/12)  (i = 0,3,6,9)
+- trapezoid of rank1's task :  f((i + i+1)/2) * (1/12) = f(i + 0.5) * (1/12)  (i = 1,4,7,10)
+- trapezoid of rank2's task :  f((i + i+1)/2) * (1/12) = f(i + 0.5) * (1/12)  (i = 2,5,8,11)
 
 
 ```
