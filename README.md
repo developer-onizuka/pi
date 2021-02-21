@@ -26,9 +26,9 @@ The trapezoid's high is 1/N (= 1/12).
 ```
 
 ```
- trapezoid of rank0's task :  f((i + i+1)/12) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 0,3,6,9)
- trapezoid of rank1's task :  f((i + i+1)/12) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 1,4,7,10)
- trapezoid of rank2's task :  f((i + i+1)/12) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 2,5,8,11)
+ trapezoid of rank0's task :  f((i + i+1)/2 *(1/12)) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 0,3,6,9)
+ trapezoid of rank1's task :  f((i + i+1)/2 *(1/12)) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 1,4,7,10)
+ trapezoid of rank2's task :  f((i + i+1)/2 *(1/12)) * (1/12) = f(i + 0.5)/12) * (1/12)  (i = 2,5,8,11)
 ```
 
 ```
