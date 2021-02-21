@@ -7,17 +7,20 @@ This means that each rank works 4 times iteratelly.
 
 | rank | 1st | 2nd | 3rd | 4th |
 | --- | --- | --- | --- | --- |
-| rank0 | 0 | 3 | 6 | 9 | 
-| rank1 | 1 | 4 | 7 | 10 | 
-| rank2 | 2 | 5 | 8 | 11 | 
+| rank0 | 0/12 | 3/12 | 6/12 | 9/12 | 
+| rank1 | 1/12 | 4/12 | 7/12 | 10/12 | 
+| rank2 | 2/12 | 5/12 | 8/12 | 11/12 | 
 
-The trapezoid's high is 1/N, which is 1/12.
-
+The trapezoid's high is 1/N (= 1/12).
+```
 - trapezoid of rank0's 1st iteration is: 
- f((0 + 1)/2) * (1/12) = f(0 + 0.5) * (1/12)
+ f((0/12 + 1/12)/2) * (1/12) = f((0+0.5)*(1/12)) * (1/12)
 - trapezoid of rank0's 2nd iteration is: 
- f((3 + 4)/2) * (1/12) = f(3 + 0.5) * (1/12)
+ f((3/12 + 4/12)/2) * (1/12) = f((3+0.5)*(1/12)) * (1/12)
  ...
+- trapezoid of rank2's 3rd iteration is: 
+ f((11/12 + 12/12)/2) * (1/12) = f((11+0.5)*(1/12)) * (1/12)
+```
 
 ```
  trapezoid of rank0's task :  f((i + i+1)/2) * (1/12) = f(i + 0.5) * (1/12)  (i = 0,3,6,9)
