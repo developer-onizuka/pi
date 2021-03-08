@@ -88,3 +88,9 @@ elasped time =  44.2550179958
 ----------------------------------
 
 ```
+# How to install openmpi
+```
+$ sudo apt-get update
+$ sudo apt install -y libopenmpi-dev
+$ sudo pip install mpi4py
+```
